@@ -20,7 +20,6 @@ public class ApiChecking {
       public ResponseDto check(int number)
       {
 
-//            String url = "http://numbersapi.com/" + number;
             String url = "http://numbersapi.com/" + number + "/math";
             ResponseDto res = new ResponseDto();
             boolean armstrong = checkArmstrongNumber(number);
