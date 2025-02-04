@@ -17,7 +17,7 @@ RUN ./mvnw dependency:go-offline
 # Copy the rest of the application source code
 COPY src ./src
 
-# Build the application using Maven
+# Build the appl ication using Maven
 RUN ./mvnw clean package -DskipTests
 
 # Expose the port the app will run on
