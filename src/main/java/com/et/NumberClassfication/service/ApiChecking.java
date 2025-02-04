@@ -44,6 +44,7 @@ public class ApiChecking {
                     url, HttpMethod.GET, null, String.class);
 
 
+            log.info("is perfect check : " + "for numberv" + number + " perfect or not " + checkPerfect);
             res.setIs_perfect(checkPerfect);
             res.setFun_fact(response.getBody().toString());
             res.setNumber(number);
@@ -113,7 +114,7 @@ public class ApiChecking {
             int sum = 0;
             int i=1;
 
-            while(i < n/2)
+            while(i <= n/2)
             {
                   if(n%i == 0)
                   {
