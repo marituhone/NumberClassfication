@@ -40,9 +40,15 @@ You can test the API using Postman, your browser, or curl -X GET http://localhos
 
 📚 Documentation  
 ✔️ [API Documentation](https://documenter.getpostman.com/view/26493465/2sAYX5Jgu9)
+
+
 ✔️ [Railway Deployment Documentation](https://docs.railway.com/guides/deploy)
+
+
 ✔️ [Fun Fact API](http://numbersapi.com/#42)
+
+
 ✔️ [Parity (Mathematics)](https://en.wikipedia.org/wiki/Parity_(mathematics))
 
 🌐 Deployment
-The API is deployed to a publicly accessible endpoint. [NumberClassfication](https://numberclassfication-production.up.railway.app//api/classify-number?number=371)
+The API is deployed to a publicly accessible endpoint. [NumberClassfication](https://numberclassfication-production.up.railway.app/api/classify-number?number=371)
